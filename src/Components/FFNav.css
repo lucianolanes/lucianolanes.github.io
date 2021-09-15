@@ -1,0 +1,69 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1% 2% 3% 0;
+  height: 95%;
+}
+
+.side-menu {
+  background: linear-gradient(125deg, darkblue 30%, rgba(0,0,0,1) 100%);
+  border: white 2px solid;
+  border-radius: 7px;
+  box-shadow: 0px 0px 0px 3px grey;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  height: 50%;
+  padding-left: 20px;
+  text-shadow: black 2px 2px;
+  width: 130%;
+}
+
+.side-menu p {
+  font-size: 140%;
+  margin-top: 3%;
+}
+
+.timer-container {
+  background: linear-gradient(125deg, darkblue 30%, rgba(0,0,0,1) 100%);
+  border: white 2px solid;
+  border-radius: 7px;
+  box-shadow: 0px 0px 0px 3px grey;
+  color: white;
+  display: flex;
+  font-size: 100%;
+  font-weight: 700;
+  height: fit-content;
+  justify-content: space-between;
+  padding: 10px;
+  width: 130%;
+}
+
+.timer-container p {
+  color: white;
+  font-size: 130%;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 3px rgb(41, 40, 40), 3px 0 rgb(26, 25, 25), 0 -1px black;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  margin-top: 4%;
+}
+
+.link:hover {
+  color: rgb(27, 177, 102);
+  cursor: pointer;
+}
+
+#notLink {
+  color: rgb(194, 183, 183);
+  margin-top: 8%;
+}

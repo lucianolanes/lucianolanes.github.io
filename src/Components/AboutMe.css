@@ -1,0 +1,67 @@
+.about-container {
+  width: 95%;
+  color: white;
+  margin: 3% 5% 5% 5%;
+  text-shadow: -1px 0 black, 0 3px rgb(41, 40, 40), 3px 0 rgb(26, 25, 25), 0 -1px black;
+}
+
+.profile-pic {
+  width: 20%;
+  margin-right: 2%;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction:row;
+  font-size: 150%;
+  font-weight: 700;
+  margin-left: 40px;
+}
+
+.profile-info {
+  margin: 0 5% 0 5%;
+}
+
+.cian-color {
+  color:aqua;
+}
+
+.hp-bar {
+  border: rgb(54, 155, 104) 2px solid;
+  box-shadow: 0px 2px 0px 0px black;
+}
+
+.mp-bar {
+  border: rgb(64, 105, 180) 2px solid;
+  box-shadow: 0px 2px 0px 0px black;
+}
+
+.skill-bar {
+  border: rgb(128, 122, 122) 6px solid;
+  box-shadow: 0px 0px 0px 2px rgb(168, 167, 167);
+  width: 150px;
+}
+
+.skill-bar:hover {
+  border: rgb(207, 122, 122) 6px solid;
+}
+
+.progress-bar {
+  margin-left: 3%;
+}
+
+.progress-bar p {
+  margin-top: 10%;
+}
+
+section h1 {
+  font-size: 200%;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.profile-text {
+  font-size: 150%;
+  margin: 30px 0 0 20px;
+  text-align: justify;
+}
