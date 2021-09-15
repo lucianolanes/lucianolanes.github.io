@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <Fade duration={3000} >
         <div className="header-container">
-          <h1>Olá, sou o Luciano e este é meu Portfólio.</h1>
+          <h1>Olá, sou o Luciano e este é meu Portfólio</h1>
         </div>
         <a href="#main-page"><img src={ pointer } alt="Apontando para baixo" /> <p>Iniciar</p></a>
       </Fade>

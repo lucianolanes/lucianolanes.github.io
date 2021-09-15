@@ -1,8 +1,6 @@
 .about-container {
   width: 95%;
-  color: white;
   margin: 3% 5% 5% 5%;
-  text-shadow: -1px 0 black, 0 3px rgb(41, 40, 40), 3px 0 rgb(26, 25, 25), 0 -1px black;
 }
 
 .profile-pic {
@@ -37,13 +35,15 @@
 }
 
 .skill-bar {
-  border: rgb(128, 122, 122) 6px solid;
-  box-shadow: 0px 0px 0px 2px rgb(168, 167, 167);
-  width: 150px;
+  background-color: rgb(128, 122, 122);
+  border: rgb(128, 122, 122) 8px solid;
+  box-shadow: 0px 0px 0px 3px rgb(168, 167, 167);
+  width: 190%;
 }
 
 .skill-bar:hover {
-  border: rgb(207, 122, 122) 6px solid;
+  background-color: rgb(207, 122, 122);
+  border: rgb(207, 122, 122) 8px solid;
 }
 
 .progress-bar {
@@ -64,4 +64,19 @@ section h1 {
   font-size: 150%;
   margin: 30px 0 0 20px;
   text-align: justify;
+}
+
+@media (min-width: 1800px) {
+  .about-container {
+    font-size: 180%;
+  }
+
+  .profile-card {
+    margin: 2% 0 5% 5%;
+  }
+
+  .skill-bar {
+    box-shadow: 0px 0px 0px 6px rgb(168, 167, 167);
+    height: 5%;
+  }
 }
