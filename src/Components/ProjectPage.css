@@ -51,3 +51,18 @@ a:visited {
 a:hover {
   color: rgb(27, 177, 102);
 }
+
+@media (min-width: 1800px) {
+  .projects-container {
+    font-size: 150%;
+    margin: 5% 0 0 5%;
+  }
+
+  .project-thumb {
+    width: 55%;
+  }
+  
+  .project-card {
+    margin-top: 3%;
+  }
+}
