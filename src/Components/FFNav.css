@@ -72,4 +72,8 @@ nav li {
   .side-menu, .timer-container {
     font-size: 160%;
   }
+
+  .timer-container {
+    padding: 7%;
+  }
 }
