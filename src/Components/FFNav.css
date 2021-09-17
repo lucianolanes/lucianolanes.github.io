@@ -65,7 +65,7 @@ nav li {
   margin-top: 8%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   aside {
     margin-right: 5%;
   }
@@ -73,7 +73,7 @@ nav li {
 
 @media (min-width: 1200px) {
   aside {
-    font-size: 140%;
+    font-size: 120%;
     margin-right: 3%;
   }
 }

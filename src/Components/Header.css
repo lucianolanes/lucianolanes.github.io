@@ -12,7 +12,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 8%;
 }
 
 header a {
@@ -38,6 +37,46 @@ header h1 {
   width: 60%;
 }
 
+@media (min-width: 900px) {
+  header {
+    padding: 11%;
+  }
+
+  header h1 {
+   font-size: 550%;
+  }
+
+  header img {
+    width:  7%;
+    margin-right: 10px;
+  }
+
+  header p {
+    font-size:  180%;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 7%;
+  }
+}
+
+@media (min-width: 1600px) {
+  header {
+    padding: 15%;
+  }
+
+  header img {
+    width:  7%;
+    margin-right: 10px;
+  }
+
+  header p {
+    font-size:  180%;
+  }
+}
+
 @media (min-width: 1800px) {
   header {
     padding: 10%;
@@ -59,7 +98,6 @@ header h1 {
   }
 
   header a {
-    display: flex;
     margin: 8% 0 0 18%;
   }
 }
