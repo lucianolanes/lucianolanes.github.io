@@ -3,7 +3,6 @@ aside {
   flex-direction: column;
   justify-content: space-between;
   margin: 1% 2% 3% 0;
-  height: 95%;
 }
 
 .side-menu {
@@ -22,8 +21,7 @@ aside {
 }
 
 .side-menu p {
-  font-size: 140%;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 .timer-container {
@@ -33,17 +31,16 @@ aside {
   box-shadow: 0px 0px 0px 3px grey;
   color: white;
   display: flex;
-  font-size: 100%;
   font-weight: 700;
   height: fit-content;
   justify-content: space-between;
+  margin-top: 25%;
   padding: 10px;
   width: 130%;
 }
 
 .timer-container p {
   color: white;
-  font-size: 130%;
   font-weight: 700;
   text-shadow: -1px 0 black, 0 3px rgb(41, 40, 40), 3px 0 rgb(26, 25, 25), 0 -1px black;
 }
@@ -68,9 +65,22 @@ nav li {
   margin-top: 8%;
 }
 
-@media (min-width: 1800px) {
-  .side-menu, .timer-container {
-    font-size: 160%;
+@media (min-width: 800px) {
+  aside {
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  aside {
+    font-size: 140%;
+    margin-right: 3%;
+  }
+}
+
+@media (min-width: 1800px) {  
+  aside {
+    font-size: 180%;
   }
 
   .timer-container {
