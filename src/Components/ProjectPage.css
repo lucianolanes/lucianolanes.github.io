@@ -52,17 +52,57 @@ a:hover {
   color: rgb(27, 177, 102);
 }
 
+@media (max-width: 899px) {
+  .project-card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-thumb {
+    margin-bottom: 5%;
+    width: 90%;
+  }
+
+  .link-container {
+    display: flex;
+    margin: 3%;
+    font-size: 110%;
+  }
+
+  .pointer {
+    margin-right: 4%;
+    width: 30px;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  .projects-container {
+    font-size: 100%;
+    margin: 5% 0 0 5%;
+  }
+
+  .projects-container h1 {
+    font-size: 150%;
+  }
+}
+
 @media (min-width: 1800px) {
+  .project-card {
+    margin-top: 3%;
+  }
+  
   .projects-container {
     font-size: 150%;
     margin: 5% 0 0 5%;
   }
 
+  .projects-container h1 {
+    font-size: 160%;
+  }
+
   .project-thumb {
     width: 55%;
-  }
-  
-  .project-card {
-    margin-top: 3%;
   }
 }

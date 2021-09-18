@@ -13,6 +13,12 @@ main {
   color: white;
 }
 
+@media (max-width: 600px) {
+  #main-page {
+    display: none;
+  }
+}
+
 @media (min-width: 900px) {
   main {
     margin: 8% 5% 8% 5%;
