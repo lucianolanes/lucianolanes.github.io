@@ -37,6 +37,20 @@ header h1 {
   width: 60%;
 }
 
+@media (min-width: 600px) {
+  header {
+    padding:7%;
+  }
+
+  header h1 {
+   font-size: 450%;
+  }
+
+  header img, header p{
+    visibility: hidden;
+  }
+}
+
 @media (min-width: 900px) {
   header {
     padding: 11%;
@@ -58,7 +72,7 @@ header h1 {
 
 @media (min-width: 1200px) {
   header {
-    padding: 7%;
+    padding: 9%;
   }
 }
 
