@@ -47,11 +47,20 @@ header h1 {
   }
 
   header h1 {
-   font-size: 450%;
+   visibility: hidden;
   }
 
-  header img, header p{
+  header a, header p{
     visibility: hidden;
+  }
+
+  #mobile {
+    display: flex;
+    font-family: FF-Font, serif;
+    font-size: 500%;
+    font-weight: 400;
+    margin-top: 50%;
+    text-align: center;
   }
 }
 
