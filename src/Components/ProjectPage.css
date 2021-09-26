@@ -77,6 +77,17 @@ a:hover {
   
 }
 
+@media (min-width: 900px) {
+  .projects-container {
+    font-size: 80%;
+    margin: 5%;
+  }
+
+  .projects-container h1 {
+    font-size: 180%;
+  }
+}
+
 @media (min-width: 1200px) {
   .projects-container {
     font-size: 102%;

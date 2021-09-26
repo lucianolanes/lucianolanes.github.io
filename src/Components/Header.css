@@ -86,6 +86,14 @@ header h1 {
     letter-spacing: 5px;
     width: 60%;
   }
+
+  header img {
+    width: 6%;
+  }
+
+  header p {
+    font-size: 150%;
+  }
 }
 
 @media (min-width: 1400px) {
