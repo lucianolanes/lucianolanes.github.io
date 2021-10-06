@@ -13,7 +13,9 @@ export default function FrontEndProj({id}) {
         <div className="project-card">
           <img src={projeto[0].img} alt={projeto[0].title} className="project-thumb"/>
           <div className="project-info">
-            <p>{projeto[0].text}</p>
+            <p>{projeto[0].text1}</p>
+            <br />
+            <p>{projeto[0].text2}</p>
           </div>
         </div>
         <section className="project-links">
