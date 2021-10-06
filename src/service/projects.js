@@ -9,7 +9,7 @@ const PROJECTS = [
   },
   {
     id: 'toDoList',
-    img:'images/toDoList.png',
+    img:'images/todolist.png',
     pageLink: 'https://lucianolanes.github.io/todo-list',
     repoLink:'https://github.com/lucianolanes/todo-list',
     title: 'Lista de Tarefas',
