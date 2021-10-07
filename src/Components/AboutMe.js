@@ -49,7 +49,7 @@ export default function AboutMe() {
           Estudante de Desenvolvimento Web em transição de carreira onde em 2021, depois de 5 anos exercendo a profissão de Tecnólogo em Geoprocessamento, resolvi deixar de lado as geotecnologias para me aventurar na programação, onde acabei encontrando o meu lugar.
           <br />
           <br />
-          Nesse portfólio com interface baseada no game Final Fantasy VII é possível navegar entre alguns dos projetos que fiz durante o curso da Trybe em Front-End e Back-End utilizando Javascript, HTML, CSS e React. 
+          Nesse portfólio com interface baseada no game Final Fantasy VII é possível navegar entre alguns dos projetos que fiz durante o curso da Trybe em Front-End e Back-End utilizando JavaScript, HTML, CSS e React. 
         </p>
       </section>
     </Fade>
