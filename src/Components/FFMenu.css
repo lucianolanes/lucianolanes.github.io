@@ -2,7 +2,6 @@ main {
   display: flex;
   justify-content: space-around;
   margin: 5%;
-  height: fit-content;
 }
 
 .FFMenu-style {
@@ -13,7 +12,7 @@ main {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 899px) {
   #main-page {
     display: none;
   }
@@ -21,6 +20,31 @@ main {
 
 @media (min-width: 900px) {
   main {
+    height: 650px;
     margin: 8% 5% 8% 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    height: 620px;
+  }
+}
+
+@media (min-width: 1800px) {  
+  main {
+    height: 850px;
+  }
+}
+
+@media (min-width: 2560px) {  
+  main {
+    height: 1000px;
   }
 }

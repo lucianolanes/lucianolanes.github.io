@@ -4,7 +4,6 @@
 }
 
 .profile-pic {
-  width: 17%;
   margin-right: 2%;
 }
 
@@ -104,6 +103,12 @@ section h1 {
   }
 }
 
+@media (min-width: 1024px) {
+  .profile-text {
+    font-size: 100%;
+  }
+}
+
 @media (min-width: 1200px) {
   .about-container {
     font-size: 150%;
@@ -115,6 +120,14 @@ section h1 {
   
   .profile-info {
     margin: 3% 3% 0 3%;
+  }
+
+  .profile-pic {
+    width: 17%;
+  }
+
+  .profile-text {
+    font-size: 100%;
   }
 
   .progress-bar {
@@ -141,8 +154,30 @@ section h1 {
     margin: 2% 0 5% 5%;
   }
 
+  .profile-pic {
+    width: 17%;
+  }
+
+  .profile-text {
+    font-size: 95%;
+  }
+
   .skill-bar {
     box-shadow: 0px 0px 0px 4px rgb(168, 167, 167);
     height: 3%;
+  }
+}
+
+@media (min-width: 2560px) {  
+  .about-container {
+    font-size: 250%;
+  }
+
+  .profile-pic {
+    width: 15%;
+  }
+
+  .profile-text {
+    font-size: 102%;
   }
 }
