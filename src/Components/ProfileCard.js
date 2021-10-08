@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePic from '../images/luciano.jpg';
-import './AboutMe.css';
+import './ProfileCard.css';
 
 export default function ProfileCard() {
   const getAge = () => {
