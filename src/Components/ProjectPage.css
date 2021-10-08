@@ -28,13 +28,22 @@
   margin: 4%;
 }
 
-.pointer {
+.project-pointer {
+  visibility: hidden;
   width: 50px;
 }
 
 .link-container {
   margin: 3%;
   font-size: 150%;
+}
+
+.link-container a {
+  display: flex;
+}
+
+.link-container a:hover > .project-pointer {
+  visibility: visible;
 }
 
 a:link {
@@ -70,7 +79,7 @@ a:hover {
     font-size: 110%;
   }
 
-  .pointer {
+  .project-pointer {
     margin-right: 4%;
     width: 30px;
   }
