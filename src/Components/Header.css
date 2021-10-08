@@ -19,13 +19,18 @@ header a {
   margin: 5% 0 0 20%;
 }
 
-header img {
-  width:  5%;
-  margin-right: 10px;
+.iniciar {
+  font-size: 150%;
 }
 
-header p {
-  font-size: 150%;
+#header-pointer {
+  visibility: hidden;
+  margin-right: 10px;
+  width:  5%;
+}
+
+header a:hover > #header-pointer {
+  visibility: visible;
 }
 
 header h1 {
@@ -50,7 +55,7 @@ header h1 {
    visibility: hidden;
   }
 
-  header a, header p{
+  header a, .iniciar{
     visibility: hidden;
   }
 
@@ -75,12 +80,12 @@ header h1 {
    width: 70%;
   }
 
-  header img {
+  #header-pointer {
     width:  10%;
     margin-right: 10px;
   }
 
-  header p {
+  .iniciar {
     font-size:  180%;
   }
 }
@@ -96,11 +101,11 @@ header h1 {
     width: 60%;
   }
 
-  header img {
+  #header-pointer {
     width: 6%;
   }
 
-  header p {
+  .iniciar {
     font-size: 150%;
   }
 }
@@ -116,7 +121,7 @@ header h1 {
     width: 60%;
   }
 
-  header p {
+  .iniciar {
     font-size:  200%;
   }
 }
@@ -132,12 +137,12 @@ header h1 {
     width: 60%;
   }
 
-  header img {
+  #header-pointer {
     width:  7%;
     margin-right: 10px;
   }
 
-  header p {
+  .iniciar {
     font-size:  180%;
   }
 }
@@ -153,12 +158,12 @@ header h1 {
     width: 60%;
   }
 
-  header img {
+  #header-pointer {
     width:  7%;
     margin-right: 10px;
   }
 
-  header p {
+  .iniciar {
     font-size:  250%;
   }
 
