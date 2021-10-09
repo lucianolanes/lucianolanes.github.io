@@ -1,0 +1,18 @@
+ul {
+  padding: 0;
+}
+
+.tech-li {
+  margin: 5%;
+  list-style-type: none;
+}
+
+.skill-card {
+  /* border: red solid 1px; */
+  font-size: 125%;
+  margin: 0 5% 2% 5%;
+}
+
+section:nth-child(5) {
+  margin-left: 11%;
+}
