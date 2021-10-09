@@ -2,12 +2,12 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import PROJECTS from '../service/projects';
 import pointer from '../images/pointer.png';
-import pointerSound from '../soundEffects/cursor_sound.mp3';
+import loadSound from '../soundEffects/loadSound.mp3';
 import './ProjectPage.css';
 
 export default function FrontEndProj({id}) {
   const playSound = () => {
-    const soundEffect = new Audio(pointerSound);
+    const soundEffect = new Audio(loadSound);
     soundEffect.play();
   }
 
