@@ -15,7 +15,7 @@ export default function Skills() {
         </div>
         <hr id="break-line"/>
           <div id="bottom-container">
-            {SKILLS.map(({title, techs}) => <SkillCard title={ title } techs={ techs } />)}
+            {SKILLS.map(({title, techs}) => <SkillCard title={ title } techs={ techs } key={ title } />)}
           </div>
       </section>
     </Fade>
