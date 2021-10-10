@@ -7,17 +7,17 @@ import './Skills.css';
 
 export default function Skills() {
   return (
-    <section id="skill-container">
-      <div id="top-container">
-        <ProfileCard className="about-container"/>
-        <h1 id="skills-title">Skills</h1>
-      </div>
-      <hr id="break-line"/>
-      <Fade duration={2000}>
-        <div id="bottom-container">
-          {SKILLS.map(({title, techs}) => <SkillCard title={ title } techs={ techs } />)}
+    <Fade duration={2000}>
+      <section id="skill-container">
+        <div id="top-container">
+          <ProfileCard className="about-container"/>
+          <h1 id="skills-title">Skills</h1>
         </div>
-      </Fade>
-    </section>
+        <hr id="break-line"/>
+          <div id="bottom-container">
+            {SKILLS.map(({title, techs}) => <SkillCard title={ title } techs={ techs } />)}
+          </div>
+      </section>
+    </Fade>
   )
 }
