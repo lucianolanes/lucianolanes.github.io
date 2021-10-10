@@ -26,6 +26,10 @@ export default function FFNav({setPage}) {
             <img src={ pointer } alt="Apontando para Esquerda" className="nav-pointer" />
             Sobre Mim
           </p>
+          <p onClick={() => setPage('Skills')} className="link">
+            <img src={ pointer } alt="Apontando para Esquerda" className="nav-pointer" />
+            Skills
+          </p>
           <p id="notLink">Projetos</p>
           <ul>
             { PROJECTS.map(({title, id}) => (

@@ -1,0 +1,14 @@
+ul {
+  padding: 0;
+}
+
+.tech-li {
+  margin: 3%;
+  list-style-type: none;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  font-size: 125%;
+}
