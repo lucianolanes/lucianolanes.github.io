@@ -1,55 +1,6 @@
 .about-container {
-  width: 95%;
   margin: 3% 5% 5% 5%;
-}
-
-.profile-pic {
-  margin-right: 2%;
-}
-
-.profile-card {
-  display: flex;
-  flex-direction:row;
-  font-weight: 700;
-  margin-left: 40px;
-}
-
-.profile-info {
-  margin: 0 5% 0 5%;
-}
-
-.cian-color {
-  color:aqua;
-}
-
-.hp-bar {
-  border: rgb(54, 155, 104) 2px solid;
-  box-shadow: 0px 2px 0px 0px black;
-}
-
-.mp-bar {
-  border: rgb(64, 105, 180) 2px solid;
-  box-shadow: 0px 2px 0px 0px black;
-}
-
-.skill-bar {
-  background-color: rgb(128, 122, 122);
-  border: rgb(128, 122, 122) 8px solid;
-  box-shadow: 0px 0px 0px 3px rgb(168, 167, 167);
-  width: 190%;
-}
-
-.skill-bar:hover {
-  background-color: rgb(207, 122, 122);
-  border: rgb(207, 122, 122) 8px solid;
-}
-
-.progress-bar {
-  margin-left: 3%;
-}
-
-.progress-bar p {
-  margin-top: 10%;
+  width: 95%;
 }
 
 section h1 {
@@ -66,40 +17,11 @@ section h1 {
   .about-container {
     font-size: 110%;
   }
-
-  .profile-info {
-    margin: 0;
-  }
-
-  .profile-pic {
-    width: 20%;
-  }
-
-  .skill-bar {
-    border: rgb(128, 122, 122) 2px solid;
-    box-shadow: 0px 0px 0px 3px rgb(168, 167, 167);
-    width: 120%;
-  }
 }
 
 @media (min-width: 900px) {
   .about-container {
     font-size: 140%;
-  }
-
-  .skill-bar {
-    border: rgb(128, 122, 122) 4px solid;
-    box-shadow: 0px 0px 0px 3px rgb(168, 167, 167);
-    width: 200%;
-  }
-
-  .profile-card {
-    font-weight: 700;
-    margin: 5%;
-  }
-
-  .profile-info {
-    margin: 0 3% 0 3%;
   }
 }
 
@@ -114,32 +36,6 @@ section h1 {
     font-size: 150%;
   }
 
-  .profile-card {
-    margin: 3% 0 5% 5%;
-  }
-  
-  .profile-info {
-    margin: 3% 3% 0 3%;
-  }
-
-  .profile-pic {
-    width: 17%;
-  }
-
-  .profile-text {
-    font-size: 100%;
-  }
-
-  .progress-bar {
-    margin-top: 3%;
-  }
-
-  .skill-bar {
-    border: rgb(128, 122, 122) 8px solid;
-    box-shadow: 0px 0px 0px 3px rgb(168, 167, 167);
-    width: 200%;
-  }
-
   section h1 {
     font-size: 120%;
   }
@@ -149,35 +45,10 @@ section h1 {
   .about-container {
     font-size: 220%;
   }
-
-  .profile-card {
-    margin: 2% 0 5% 5%;
-  }
-
-  .profile-pic {
-    width: 17%;
-  }
-
-  .profile-text {
-    font-size: 95%;
-  }
-
-  .skill-bar {
-    box-shadow: 0px 0px 0px 4px rgb(168, 167, 167);
-    height: 3%;
-  }
 }
 
 @media (min-width: 2560px) {  
   .about-container {
     font-size: 250%;
-  }
-
-  .profile-pic {
-    width: 15%;
-  }
-
-  .profile-text {
-    font-size: 102%;
   }
 }
