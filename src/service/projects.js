@@ -1,5 +1,14 @@
 const PROJECTS = [
   {
+    id: 'carrinhoCompras',
+    img:'/images/carrinhoCompras.png',
+    pageLink: 'https://lucianolanes.github.io/carrinho-compras/',
+    repoLink:'https://github.com/lucianolanes/carrinho-compras',
+    title: 'Carrinho de Compras',
+    text1: 'Projeto utilizando JavaScript, HTML, CSS e planejado inicialmente para a resolução 1366 x 768.',
+    text2: 'Aplicação simulando uma página web de compras utilizando a API do Mercado Livre. Aqui é possível, além de realizar buscas de produtos consultando a API, adicionar e remover produtos do carrinho de compras.'
+  },
+  {
     id: 'toDoList',
     img:'/images/todo-list.png',
     pageLink: 'https://lucianolanes.github.io/todo-list',
