@@ -47,7 +47,7 @@ aside {
 
 .nav-pointer {
   position: absolute;
-  right: 17.5%;
+  right: 19%;
   visibility: hidden;
 }
 
@@ -94,7 +94,7 @@ nav li:hover > .nav-pointer {
 
 @media (max-width: 1024px) {
   .nav-pointer {
-    right: 20%;
+    right: 21%;
   }
 }
 
@@ -107,7 +107,7 @@ nav li:hover > .nav-pointer {
 
 @media (min-width: 1440px) {
   .nav-pointer {
-    right: 16.5%;
+    right: 18%;
   }
 }
 
@@ -117,7 +117,7 @@ nav li:hover > .nav-pointer {
   }
 
   .nav-pointer {
-    right: 18%;
+    right: 19%;
   }
 
   .timer-container {
@@ -127,6 +127,6 @@ nav li:hover > .nav-pointer {
 
 @media (min-width: 2560px) {  
   .nav-pointer {
-    right: 15.5%;
+    right: 17%;
   }
 }
