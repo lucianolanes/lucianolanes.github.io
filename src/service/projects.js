@@ -1,7 +1,7 @@
 const PROJECTS = [
   {
     id: 'carrinhoCompras',
-    img:'/images/carrinhoCompras.png',
+    img:'/images/carrinho.png',
     pageLink: 'https://lucianolanes.github.io/carrinho-compras/',
     repoLink:'https://github.com/lucianolanes/carrinho-compras',
     title: 'Carrinho de Compras',
@@ -24,7 +24,7 @@ const PROJECTS = [
     repoLink:'https://github.com/lucianolanes/trivia-react-redux',
     title: 'Purple Rain Trivia',
     text1: 'Projeto realizado em equipe, utilizando JavaScript, CSS, React, Redux, API "Open Trivia DB" e planejado inicialmente para a resolução 1366 x 768.',
-    text2: 'Nesse jogo de trivia com a temática e identidade visual inspirados no videoclipe Purple Rain do cantor Prince, o principal objetivo foi testar os conhecimentos sobre React e Redux. Dica: se o nome do jogador for o nome completo do Prince, é ativado um Easter Egg :)'
+    text2: 'Neste jogo de trivia com a temática e identidade visual inspirados no videoclipe Purple Rain do cantor Prince, o principal objetivo foi testar os conhecimentos sobre React e Redux. Dica: se o nome do jogador for o nome completo do Prince, é ativado um Easter Egg :)'
   }
 ];
 
