@@ -7,7 +7,7 @@ import './Skills.css';
 
 export default function Skills() {
   return (
-    <Fade duration={2000}>
+    <Fade duration={1000}>
       <section id="skill-container">
         <div id="top-container">
           <ProfileCard className="about-container"/>
