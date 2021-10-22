@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "Reactor7";
+  src: url('../src/font/Reactor7.ttf') format("truetype");
+}
+
 body {
   background-color: black;
   color: white;
+  font-family: Reactor7, sans-serif;
   text-shadow: -1px 0 black, 0 3px rgb(41, 40, 40), 3px 0 rgb(26, 25, 25), 0 -1px black;
 }
 
