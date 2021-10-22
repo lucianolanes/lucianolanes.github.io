@@ -19,6 +19,7 @@
 .hp-bar {
   border: rgb(54, 155, 104) 2px solid;
   box-shadow: 0px 2px 0px 0px black;
+  margin-bottom: 2%;
 }
 
 .mp-bar {
@@ -104,6 +105,12 @@
     border: rgb(128, 122, 122) 8px solid;
     box-shadow: 0px 0px 0px 3px rgb(168, 167, 167);
     width: 200%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .profile-pic {
+    width: 15%;
   }
 }
 

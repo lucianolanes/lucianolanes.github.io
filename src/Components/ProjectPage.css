@@ -8,7 +8,7 @@
 }
 
 .project-thumb {
-  width: 52%;
+  width: 50%;
 }
 
 .project-card {
@@ -17,9 +17,8 @@
 }
 
 .project-info p {
-  font-size: 120%;
+  font-size: 180%;
   margin-left: 5%;
-  text-align: justify;
 }
 
 .project-links {
@@ -30,12 +29,12 @@
 
 .project-pointer {
   visibility: hidden;
-  width: 50px;
+  width: 40px;
 }
 
 .link-container {
   margin: 3%;
-  font-size: 150%;
+  font-size: 180%;
 }
 
 .link-container a {
@@ -88,12 +87,12 @@ a:hover {
 
 @media (min-width: 900px) {
   .projects-container {
-    font-size: 80%;
+    font-size: 130%;
     margin: 5%;
   }
 
   .projects-container h1 {
-    font-size: 180%;
+    font-size: 130%;
   }
 }
 
@@ -116,7 +115,7 @@ a:hover {
 
   .project-pointer {
     margin-right: 4%;
-    width: 25px;
+    width: 30px;
   }
 
   .project-thumb {
@@ -127,12 +126,32 @@ a:hover {
 
 @media (min-width: 1200px) {
   .projects-container {
-    font-size: 102%;
+    font-size: 100%;
     margin: 5%;
   }
 
   .projects-container h1 {
-    font-size: 180%;
+    font-size: 200%;
+  }
+
+  .project-thumb {
+    margin-bottom: 2%;
+    height: 80%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1360px) {
+  .project-thumb {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .projects-container {
+    font-size: 110%;
+    margin: 5%;
   }
 }
 
@@ -142,12 +161,16 @@ a:hover {
   }
   
   .projects-container {
-    font-size: 135%;
+    font-size: 140%;
     margin: 5%;
   }
 
   .projects-container h1 {
     font-size: 190%;
+  }
+
+  .project-pointer {
+    width: 50px;
   }
 
   .project-thumb {
@@ -157,8 +180,12 @@ a:hover {
 
 @media (min-width: 2560px) {
   .projects-container {
-    font-size: 180%;
+    font-size: 190%;
     margin: 5%;
+  }
+
+  .project-pointer {
+    width: 70px;
   }
 
   .project-thumb {

@@ -15,7 +15,7 @@ export default function FrontEndProj({id}) {
     const projeto = PROJECTS.filter((project) => project.id === id);
     return(
       <Fade duration={1000} key={ id }>
-        <h1>{projeto[0].title}</h1>
+        <h1 className="project-title">{projeto[0].title}</h1>
         <div className="project-card">
           <img src={projeto[0].img} alt={projeto[0].title} className="project-thumb"/>
           <div className="project-info">

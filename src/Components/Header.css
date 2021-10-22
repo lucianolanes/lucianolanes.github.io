@@ -19,10 +19,6 @@ header a {
   margin: 5% 0 0 20%;
 }
 
-.iniciar {
-  font-size: 150%;
-}
-
 #header-pointer {
   visibility: hidden;
   margin-right: 10px;
@@ -40,6 +36,10 @@ header h1 {
   letter-spacing: 5px;
   text-align: center;
   width: 60%;
+}
+
+.iniciar {
+  font-size: 250%;
 }
 
 #mobile {
@@ -81,12 +81,12 @@ header h1 {
   }
 
   #header-pointer {
-    width:  10%;
+    width: 7%;
     margin-right: 10px;
   }
 
   .iniciar {
-    font-size:  180%;
+    font-size:  220%;
   }
 }
 
@@ -102,11 +102,7 @@ header h1 {
   }
 
   #header-pointer {
-    width: 6%;
-  }
-
-  .iniciar {
-    font-size: 150%;
+    width: 5%;
   }
 }
 
@@ -119,10 +115,6 @@ header h1 {
     font-size: 750%;
     letter-spacing: 5px;
     width: 60%;
-  }
-
-  .iniciar {
-    font-size:  200%;
   }
 }
 
@@ -138,12 +130,8 @@ header h1 {
   }
 
   #header-pointer {
-    width:  7%;
+    width:  6%;
     margin-right: 10px;
-  }
-
-  .iniciar {
-    font-size:  180%;
   }
 }
 
@@ -159,12 +147,12 @@ header h1 {
   }
 
   #header-pointer {
-    width:  7%;
+    width:  6%;
     margin-right: 10px;
   }
 
   .iniciar {
-    font-size:  250%;
+    font-size:  350%;
   }
 
   header a {
@@ -175,5 +163,9 @@ header h1 {
 @media (min-width: 2560px) {
   header h1 {
     font-size: 1150%;
+  }
+
+  .iniciar {
+    font-size:  450%;
   }
 }

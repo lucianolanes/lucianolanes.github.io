@@ -17,7 +17,6 @@
 }
 
 #skill-container {
-  font-size: 120%;
   width: 95%;
   margin: 0 10% 0 0;
 }
@@ -29,8 +28,9 @@
 }
 
 #top-container {
-  display: flex;
   align-items: center;
+  display: flex;
+  font-size: 145%;
   justify-content: space-between;
 }
 
@@ -40,7 +40,7 @@
   }
 
   #skill-container {
-    font-size: 125%;
+    font-size: 110%;
   }
 
   #skills-title {
@@ -83,7 +83,7 @@
   }
 
   #skill-container {
-    font-size: 163%;
+    font-size: 160%;
   }
 
   #skills-title {
@@ -97,7 +97,7 @@
   }
 
   #skill-container {
-    font-size: 200%;
+    font-size: 190%;
   }
 
   #skill-container img {
