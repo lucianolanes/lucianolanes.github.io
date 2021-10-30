@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import FFNav from './FFNav';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import ProjectPage from './ProjectPage';
+import PROJECTS from '../service/projects';
 import './FFMenu.css';
 
 export default function FFMenu() {
   const [renderPage, setPage] = useState('About');
+
+  useEffect(() => {
+    PROJECTS.forEach(({img}) => {
+      new Image().src = img;
+  });
+  }, []);
 
   const renderComponent = () => {
     if (renderPage === "About") {
