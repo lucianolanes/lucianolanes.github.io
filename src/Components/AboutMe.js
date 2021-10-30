@@ -9,7 +9,7 @@ export default function AboutMe() {
       <section className="about-container">
         <h1>Sobre Mim</h1>
         <ProfileCard />
-        <p className="profile-text">
+        <p className="profile-text" data-testid="profileText">
           Estudante de Desenvolvimento Web em transição de carreira onde em 2021, depois de 5 anos exercendo a profissão de Tecnólogo em Geoprocessamento, resolvi deixar de lado as geotecnologias para me aventurar na programação!
           <br />
           <br />
