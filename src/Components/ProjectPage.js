@@ -17,7 +17,7 @@ export default function FrontEndProj({id}) {
       <Fade duration={1000} key={ id }>
         <h1 className="project-title">{projeto[0].title}</h1>
         <div className="project-card">
-          <img src={projeto[0].img} alt={projeto[0].title} className="project-thumb" rel="preload"/>
+          <img src={projeto[0].img} alt={projeto[0].title} className="project-thumb" />
           <div className="project-info">
             <p>{projeto[0].text1}</p>
             <br />
