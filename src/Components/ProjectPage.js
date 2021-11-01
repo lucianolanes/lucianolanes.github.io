@@ -11,6 +11,20 @@ export default function FrontEndProj({id}) {
     soundEffect.play();
   }
 
+  const demoLink = (projeto) => {
+    if (!projeto.pageLink) {
+      return null
+    }
+    return (
+      <div className="link-container" onClick={ playSound }>
+      <a href={projeto.pageLink} target="_blank" rel="noreferrer">
+        <img src={ pointer } alt="Apontando para Direita" className="project-pointer"/>
+        Demonstração
+      </a>
+    </div>
+    );
+  }
+
   const renderProject = () => {
     const projeto = PROJECTS.filter((project) => project.id === id);
     return(
@@ -25,12 +39,7 @@ export default function FrontEndProj({id}) {
           </div>
         </div>
         <section className="project-links">
-        <div className="link-container" onClick={ playSound }>
-          <a href={projeto[0].pageLink} target="_blank" rel="noreferrer">
-            <img src={ pointer } alt="Apontando para Direita" className="project-pointer"/>
-            Demonstração
-          </a>
-        </div>
+        { demoLink(projeto[0]) }
         <div className="link-container" onClick={ playSound }>
           <a href={projeto[0].repoLink} target="_blank" rel="noreferrer">
             <img src={ pointer } alt="Apontando para Direita" className="project-pointer"/>

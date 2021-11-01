@@ -18,11 +18,19 @@ const PROJECTS = [
     text2: 'A aplicação é uma lista de tarefas onde é possível adicionar novos dados, riscar tarefas já relizadas, deletar, ordenar e também salvá-las para que possam ser acessadas novamente após sair e retornar para a página.'
   },
   {
+    id: 'nodeAPI',
+    img: '/images/node.jpg',
+    repoLink:'https://github.com/lucianolanes/Node.JS-Endpoints',
+    title: 'Node.js API CRUD',
+    text1: 'Primeiro projeto utilizando Node.js e Express, onde foi desenvolvida uma API de CRUD (Create, Read, Update e Delete).',
+    text2: 'Foram criadas rotas, middlewares e endpoints que irão ler e realizar alterações no arquivo utilizando o módulo fs, utilizando como base um arquivo JSON que simula um cadastro de palestrantes.'
+  },
+  {
     id: 'purpleRain',
     img:'images/purpleRainLogin.png',
     pageLink: 'https://lucianolanes.github.io/trivia-react-redux/',
     repoLink:'https://github.com/lucianolanes/trivia-react-redux',
-    title: 'Purple Rain Trivia',
+    title: 'React Trivia',
     text1: 'Projeto realizado em equipe, utilizando JavaScript, CSS, React, Redux, API "Open Trivia DB" e planejado inicialmente para a resolução 1366 x 768.',
     text2: 'Neste jogo de trivia com a temática e identidade visual inspirados no videoclipe Purple Rain do cantor Prince, o principal objetivo foi testar os conhecimentos sobre React e Redux. Dica: se o nome do jogador for o nome completo do Prince, é ativado um Easter Egg :)'
   }
