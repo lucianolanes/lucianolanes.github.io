@@ -23,7 +23,7 @@ const PROJECTS = [
     repoLink:'https://github.com/lucianolanes/Node.JS-Endpoints',
     title: 'Node.js API CRUD',
     text1: 'Primeiro projeto utilizando Node.js e Express, onde foi desenvolvida uma API de CRUD (Create, Read, Update e Delete).',
-    text2: 'Foram criadas rotas, middlewares e endpoints que irão ler e realizar alterações no arquivo utilizando o módulo fs, tendo como base um arquivo JSON que simula um cadastro de palestrantes.'
+    text2: 'Foram criadas rotas e middlewares que irão ler e realizar alterações utilizando o módulo fs, tendo como base um arquivo JSON que simula um cadastro de palestrantes.'
   },
   {
     id: 'purpleRain',
