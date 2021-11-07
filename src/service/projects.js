@@ -18,6 +18,22 @@ const PROJECTS = [
     text2: 'A aplicação é uma lista de tarefas onde é possível adicionar novos dados, riscar tarefas já relizadas, deletar, ordenar e também salvá-las para que possam ser acessadas novamente após sair e retornar para a página.'
   },
   {
+    id: 'mongoDB',
+    img: '/images/mongoDB.png',
+    repoLink:'https://github.com/lucianolanes/MongoDB-CRUD',
+    title: 'MongoDB CRUD',
+    text1: 'Projeto realizado para consolidar todos conhecimentos adquirios de MongoDB.',
+    text2: 'A ideia é trabalhar com o banco de dados commerce que contém dados do cardápio do McDonalds como ingredientes, valores nutricionais e dados fictícios de vendas utilizando vários operadores para ler e criar, ler, filtrar, atualizar e deletar dados.'
+  },
+  {
+    id: 'mySQL',
+    img: '/images/mysql.jpg',
+    repoLink:'https://github.com/lucianolanes/MySQL-Database-One-for-All',
+    title: 'MySQL Database',
+    text1: 'Projeto utilizando MySQL aplicando as 1ª, 2ª e 3ª formas normais e identificando as entidades, atributros e relacionamentos.',
+    text2: 'A proposta do projeto era consolidar todos os conhecimentos de SQL criando um banco de dados a partir de uma tabela despadronizada no Excel que simula dados de um serviço de streaming de músicas. Também foram realizadas queries para consulta e a criação de VIEWS, TRIGGERS e UPDATEs.'
+  },
+  {
     id: 'nodeAPI',
     img: '/images/node.jpg',
     repoLink:'https://github.com/lucianolanes/Node.JS-Endpoints',
