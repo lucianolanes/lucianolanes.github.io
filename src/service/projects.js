@@ -23,7 +23,7 @@ const PROJECTS = [
     repoLink:'https://github.com/lucianolanes/MongoDB-CRUD',
     title: 'MongoDB CRUD',
     text1: 'Projeto realizado para consolidar todos os conhecimentos adquiridos de MongoDB.',
-    text2: 'A ideia é trabalhar com o banco de dados "commerce" que contém dados do cardápio do McDonalds, como: ingredientes, valores nutricionais e dados fictícios de vendas utilizando vários operadores para ler, criar, filtrar, atualizar e deletar dados.'
+    text2: 'A idéia é trabalhar com o banco de dados "commerce" que contém dados do cardápio do McDonalds, como: ingredientes, valores nutricionais e dados fictícios de vendas utilizando vários operadores para ler, criar, filtrar, atualizar e deletar dados.'
   },
   {
     id: 'mySQL',
