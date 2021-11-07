@@ -22,16 +22,16 @@ const PROJECTS = [
     img: '/images/mongoDB.png',
     repoLink:'https://github.com/lucianolanes/MongoDB-CRUD',
     title: 'MongoDB CRUD',
-    text1: 'Projeto realizado para consolidar todos conhecimentos adquiridos de MongoDB.',
-    text2: 'A ideia é trabalhar com o banco de dados commerce que contém dados do cardápio do McDonalds como ingredientes, valores nutricionais e dados fictícios de vendas utilizando vários operadores para ler e criar, ler, filtrar, atualizar e deletar dados.'
+    text1: 'Projeto realizado para consolidar todos os conhecimentos adquiridos de MongoDB.',
+    text2: 'A ideia é trabalhar com o banco de dados "commerce" que contém dados do cardápio do McDonalds, como: ingredientes, valores nutricionais e dados fictícios de vendas utilizando vários operadores para ler, criar, filtrar, atualizar e deletar dados.'
   },
   {
     id: 'mySQL',
     img: '/images/mysql.jpg',
     repoLink:'https://github.com/lucianolanes/MySQL-Database-One-for-All',
     title: 'MySQL Database',
-    text1: 'Projeto utilizando MySQL aplicando as 1ª, 2ª e 3ª formas normais e identificando as entidades, atributos e relacionamentos.',
-    text2: 'A proposta do projeto era consolidar todos os conhecimentos de SQL criando um banco de dados a partir de uma tabela despadronizada no Excel que simula dados de um serviço de streaming de músicas. Também foram realizadas queries para consulta e a criação de VIEWS, TRIGGERS e UPDATEs.'
+    text1: 'Projeto realizado utilizando MySQL, aplicando as 1ª, 2ª e 3ª formas normais e identificando as entidades, atributos e relacionamentos.',
+    text2: 'A proposta do projeto era consolidar todos os conhecimentos de SQL criando um banco de dados a partir de uma tabela despadronizada no Excel que simulava dados de um serviço de streaming de músicas. Também foram realizadas queries para consulta e a criação de VIEWS, TRIGGERS e UPDATES.'
   },
   {
     id: 'nodeAPI',
