@@ -14,7 +14,7 @@ export default function ProfileCard() {
   }
 
   return (
-    <section className="profile-card">
+    <section className="profile-card" data-testid="profileCard">
       <img src={ profilePic }
         alt="Luciano Lanes Lopes"
         className="profile-pic"

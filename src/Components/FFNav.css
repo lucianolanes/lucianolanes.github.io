@@ -82,9 +82,9 @@ nav li:hover > .nav-pointer {
   margin-top: 8%;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 899px) {
   aside {
-    margin-right: 8%;
+    display: none;
   }
 }
 

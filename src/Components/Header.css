@@ -39,7 +39,7 @@ header h1 {
 }
 
 .iniciar {
-  font-size: 250%;
+  font-size: 100%;
 }
 
 @media (max-width: 899px) {
@@ -48,7 +48,8 @@ header h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding:7%;
+    padding: 10%;
+    margin-bottom: 50%;
   }
 
   header h1 {
