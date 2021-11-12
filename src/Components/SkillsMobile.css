@@ -8,8 +8,9 @@
 }
 
 #skill-container-mobile {
-  margin: 10% 5% 5% 5%;
   display: none;
+  font-size: 100%;
+  margin: 10% 5% 5% 2.5%;
 }
 
 #skills-title-mobile {

@@ -4,6 +4,7 @@ import SkillsMobile from './SkillsMobile';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import ProjectPage from './ProjectPage';
+import ProjectCardMobile from './ProjectCardMobile';
 import PROJECTS from '../service/projects';
 import './FFMenu.css';
 
@@ -30,6 +31,7 @@ export default function FFMenu() {
       { renderComponent() }
       <FFNav setPage={setPage} />
       <SkillsMobile />
+      <ProjectCardMobile />
     </main>
   )
 }
