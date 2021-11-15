@@ -50,10 +50,11 @@
 @media (max-width: 899px) {
   .profile-card {
     font-size: 145%;
+    margin: 2%;
   }
   
   .profile-info {
-    margin: 0;
+    margin: 1%;
   }
 
   .profile-pic {
@@ -68,7 +69,7 @@
     border: rgb(128, 122, 122) 5px solid;
     box-shadow: 0px 0px 0px 3px rgb(168, 167, 167);
     margin-top: 5%;
-    width: 150%;
+    width: 120%;
   }
 
   .skill-bar:hover {
