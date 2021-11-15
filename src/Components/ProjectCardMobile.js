@@ -22,7 +22,7 @@ export default function ProjectCardMobile() {
               <p>{text2}</p>
             </div>
           <div className="link-container-mobile" onClick={ playSound }>
-            <a href={repoLink} target="_blank" rel="noreferrer">
+            <a href={repoLink} target="_blank" rel="noreferrer" className="link-mobile">
               <img src={ pointer } alt="Apontando para Direita" className="project-pointer-mobile"/>
               Repositório
             </a>
