@@ -1,0 +1,51 @@
+.link-container-mobile {
+  display: flex;
+  font-size: 180%;
+  justify-content: center;
+  margin: 5% 10% 5% 0%;
+}
+
+.link-container-mobile a:hover > .project-pointer-mobile {
+  visibility: visible;
+}
+
+.project-card-mobile {
+  background: rgba(27, 26, 26, 0.644);
+  border: white 2px solid;
+  border-radius: 7px;
+  box-shadow: 0px 0px 0px 3px grey;
+  color: white;
+  display: none;
+  margin-bottom: 8%;
+  padding: 3%;
+}
+
+.projects-container-mobile {
+  margin: 2%;
+}
+
+.project-info-mobile {
+  font-size: 200%;
+  margin: 3%;
+}
+
+.project-pointer-mobile {
+  visibility: hidden;
+  width: 35px;
+}
+
+.project-title-mobile {
+  font-size: 200%;
+  margin: 3%;
+}
+
+.project-thumb-mobile {
+  margin: 2%;
+  width: 95%;
+}
+
+@media (max-width: 899px) {
+  .project-card-mobile {
+    display: inherit;
+  }
+}

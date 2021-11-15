@@ -49,7 +49,7 @@ aside {
 
 .nav-pointer {
   position: absolute;
-  right: 19%;
+  right: 22%;
   visibility: hidden;
 }
 
@@ -82,9 +82,9 @@ nav li:hover > .nav-pointer {
   margin-top: 8%;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 899px) {
   aside {
-    margin-right: 8%;
+    display: none;
   }
 }
 
@@ -98,9 +98,13 @@ nav li:hover > .nav-pointer {
   aside {
     font-size: 130%;
   }
-
+  
   .nav-pointer {
-    right: 21%;
+    right: 27%;
+  }
+
+  .side-menu {
+    padding: 0 5px 30px 20px;
   }
 }
 
@@ -117,13 +121,17 @@ nav li:hover > .nav-pointer {
   }
 
   .nav-pointer {
-    right: 18%;
+    right: 22%;
   }
 }
 
 @media (min-width: 1600px) {
   aside {
     font-size: 135%;
+  }
+
+  .nav-pointer {
+    right: 21%;
   }
 }
 
@@ -133,12 +141,12 @@ nav li:hover > .nav-pointer {
   }
 
   .nav-pointer {
-    right: 19%;
+    right: 22%;
   }
 }
 
 @media (min-width: 2560px) {  
   .nav-pointer {
-    right: 17%;
+    right: 20%;
   }
 }

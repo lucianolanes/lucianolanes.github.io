@@ -39,35 +39,34 @@ header h1 {
 }
 
 .iniciar {
-  font-size: 250%;
-}
-
-#mobile {
-  display: none;
+  font-size: 100%;
 }
 
 @media (max-width: 899px) {
   header {
-    padding:7%;
+    background-image: url('../images/swordMobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10%;
+    margin-bottom: 50%;
   }
 
   header h1 {
-   visibility: hidden;
+    font-size: 350%;
+    padding: 0 0 100% 0;
+    width: 100%;
   }
 
-  header a, .iniciar{
-    visibility: hidden;
+  #header-pointer {
+    width: 20%;
+    margin-right: 10px;
   }
 
-  #mobile {
-    display: flex;
-    font-family: FF-Font, serif;
-    font-size: 500%;
-    font-weight: 400;
-    margin-top: 50%;
-    text-align: center;
+  .iniciar {
+    font-size:  250%;
   }
-}
+} 
 
 @media (min-width: 900px) {
   header {

@@ -1,0 +1,27 @@
+#bottom-container-mobile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 25px;
+  margin: 2% 0 2% 0;
+}
+
+#skill-container-mobile {
+  display: none;
+  font-size: 95%;
+  margin: 10% 5% 5% 2.5%;
+}
+
+#skills-title-mobile {
+  color: rgb(28, 221, 221);
+  font-size: 250%;
+  text-align: center;
+  margin: 0 10% 5% 0;
+}
+
+@media (max-width: 899px) {
+  #skill-container-mobile {
+    display: unset;
+  }
+}

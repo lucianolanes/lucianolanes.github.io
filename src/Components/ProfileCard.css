@@ -47,19 +47,35 @@
   margin-top: 10%;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 899px) {
+  .profile-card {
+    font-size: 145%;
+    margin: 2%;
+  }
+  
   .profile-info {
-    margin: 0;
+    margin: 1%;
   }
 
   .profile-pic {
-    width: 20%;
+    display: none;
+  }
+  
+  .progress-bar p {
+    margin-top: 10%;
+  }
+  
+  .skill-bar {
+    border: rgb(128, 122, 122) 5px solid;
+    box-shadow: 0px 0px 0px 3px rgb(168, 167, 167);
+    margin-top: 5%;
+    width: 120%;
   }
 
-  .skill-bar {
-    border: rgb(128, 122, 122) 2px solid;
-    box-shadow: 0px 0px 0px 3px rgb(168, 167, 167);
-    width: 120%;
+  .skill-bar:hover {
+    background-color: rgb(207, 122, 122);
+    border: rgb(207, 122, 122) 5px solid;
+    margin-top: 5%;
   }
 }
 
@@ -77,6 +93,10 @@
 
   .profile-info {
     margin: 0 3% 0 3%;
+  }
+
+  .profile-pic {
+    width: 20%;
   }
 }
 

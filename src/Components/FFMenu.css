@@ -13,8 +13,9 @@ main {
 }
 
 @media (max-width: 899px) {
-  #main-page {
-    display: none;
+  main {
+    flex-direction: column;
+    margin: 2%;
   }
 }
 

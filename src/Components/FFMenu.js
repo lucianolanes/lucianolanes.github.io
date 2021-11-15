@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import FFNav from './FFNav';
+import SkillsMobile from './SkillsMobile';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import ProjectPage from './ProjectPage';
+import ProjectCardMobile from './ProjectCardMobile';
 import PROJECTS from '../service/projects';
 import './FFMenu.css';
 
@@ -27,7 +29,9 @@ export default function FFMenu() {
   return (
     <main className="FFMenu-style" id="main-page">
       { renderComponent() }
-      <FFNav setPage={setPage}/>
+      <FFNav setPage={setPage} />
+      <SkillsMobile />
+      <ProjectCardMobile />
     </main>
   )
 }
