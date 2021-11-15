@@ -13,7 +13,7 @@ export default function ProjectCardMobile() {
   const renderCards = () => {
     return PROJECTS.map(({title, img, text1, text2, repoLink}) => {
       return(
-        <section className="project-card-mobile">
+        <section className="project-card-mobile" key={ title }>
           <h1 className="project-title-mobile">{title}</h1>
             <img src={img} alt={title} className="project-thumb-mobile" />
             <div className="project-info-mobile">
@@ -21,9 +21,9 @@ export default function ProjectCardMobile() {
               <br />
               <p>{text2}</p>
             </div>
-          <div className="link-container" onClick={ playSound }>
+          <div className="link-container-mobile" onClick={ playSound }>
             <a href={repoLink} target="_blank" rel="noreferrer">
-              <img src={ pointer } alt="Apontando para Direita" className="project-pointer"/>
+              <img src={ pointer } alt="Apontando para Direita" className="project-pointer-mobile"/>
               Repositório
             </a>
           </div>
