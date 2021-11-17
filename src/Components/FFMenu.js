@@ -31,6 +31,7 @@ export default function FFMenu() {
       { renderComponent() }
       <FFNav setPage={setPage} />
       <SkillsMobile />
+      <h2 id="projects-title-mobile">Projetos</h2>
       <ProjectCardMobile />
     </main>
   )

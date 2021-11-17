@@ -12,7 +12,19 @@ main {
   color: white;
 }
 
+#projects-title-mobile{
+  color: rgb(28, 221, 221);
+  display: none;
+  font-size: 230%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
 @media (max-width: 899px) {
+  #projects-title-mobile{
+    display: unset;
+  }
+
   main {
     flex-direction: column;
     margin: 2%;
