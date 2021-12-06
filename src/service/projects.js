@@ -55,8 +55,8 @@ const PROJECTS = [
     img:'images/jest.png',
     repoLink:'https://github.com/lucianolanes/Testes-Unitarios-Jest-RTL',
     title: 'Testes Unitários',
-    text1: 'Nesse projeto foram utilizadas as bibliotecas Jest e RTL (React Testing Library) para realizar os testes unitários dos componentes da aplicação React Pokédex.',
-    text2: 'Foi realizada a cobertura com intuito de utilizar as queries da RTL, simular eventos, testar o comportamento de inputs e componentes, criar mocks de API, testar fluxos lógicos assíncronos, entre outros.'
+    text1: 'Neste projeto foram utilizadas as bibliotecas Jest e RTL (React Testing Library) para realizar os testes unitários dos componentes da aplicação React Pokédex.',
+    text2: 'A cobertura de testes foi criada com intuito de utilizar as queries da RTL, simular eventos, testar o comportamento de inputs e componentes, criar mocks de API, testar fluxos lógicos assíncronos, entre outros.'
   }
 ];
 
