@@ -49,6 +49,14 @@ const PROJECTS = [
     title: 'React Trivia',
     text1: 'Projeto realizado em equipe, utilizando JavaScript, CSS, React, Redux, API "Open Trivia DB" e planejado inicialmente para a resolução 1366 x 768.',
     text2: 'Neste jogo de trivia com a temática e identidade visual inspirados no videoclipe Purple Rain do cantor Prince, o principal objetivo foi testar os conhecimentos sobre React e Redux. Dica: se o nome do jogador for o nome completo do Prince, é ativado um Easter Egg :)'
+  },
+  {
+    id: 'testesUnitarios',
+    img:'images/jest.png',
+    repoLink:'https://github.com/lucianolanes/Testes-Unitarios-Jest-RTL',
+    title: 'Testes Unitários',
+    text1: 'Nesse projeto foram utilizadas as bibliotecas Jest e RTL (React Testing Library) para realizar os testes unitários dos componentes da aplicação React Pokédex.',
+    text2: 'Foi realizada a cobertura com intuito de utilizar as queries da RTL, simular eventos, testar o comportamento de inputs e componentes, criar mocks de API, testar fluxos lógicos assíncronos, entre outros.'
   }
 ];
 

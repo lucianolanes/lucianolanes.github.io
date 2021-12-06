@@ -13,7 +13,7 @@ const SKILLS = [
   },
   {
     title: "Back-End",
-    techs: ["MySQL", "MongoDB", "Node.js"],
+    techs: ["MySQL", "MongoDB", "Node.js", "Express.js"],
   },
   {
     title: "Testes",
