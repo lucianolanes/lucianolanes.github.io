@@ -42,6 +42,14 @@ const PROJECTS = [
     text2: 'Foram criadas rotas e middlewares que irão ler e realizar alterações utilizando o módulo fs, tendo como base um arquivo JSON que simula um cadastro de palestrantes.'
   },
   {
+    id: 'nodeAPIRESTful',
+    img: '/images/node.jpg',
+    repoLink:'https://github.com/lucianolanes/Nodejs-API-RESTful',
+    title: 'Node.js API RESTful',
+    text1: 'API que acessa um banco de dados NoSQL de usuários e receitas e que foi desenvolvida utilizando padrão REST e arquitetura MSC. Aqui é possível fazer o cadastro e login de pessoas usuárias e administratoras, bem como cadastro e requisição das receitas e suas imagens.',
+    text2: 'Ferramentas utilizadas: JavaScript, Node.js, Express.js, MongoDB, JWT, Multer e para os testes Mocha e Sinon.',
+  },
+  {
     id: 'purpleRain',
     img:'images/purpleRainLogin.png',
     pageLink: 'https://lucianolanes.github.io/trivia-react-redux/',
