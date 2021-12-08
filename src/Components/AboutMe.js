@@ -10,7 +10,7 @@ export default function AboutMe() {
         <h1>Sobre Mim</h1>
         <ProfileCard />
         <p className="profile-text" data-testid="profileText">
-          Estudante de Desenvolvimento Web em transição de carreira onde em 2021, depois de 5 anos exercendo a profissão de Tecnólogo em Geoprocessamento, resolvi deixar de lado as geotecnologias para me aventurar na programação!
+          Desenvolvedor Web Júnior em transição de carreira onde em 2021, depois de 5 anos exercendo a profissão de Tecnólogo em Geoprocessamento, resolvi deixar de lado as geotecnologias para me aventurar na programação!
           <br />
           <br />
           Neste portfólio feito com JavaScript, HTML, CSS, React e com interface inspirada no game Final Fantasy VII, é possível navegar entre alguns dos projetos que venho realizando desde abril de 2021, quando decidi iniciar minha transição de carreira como desenvolvedor.
