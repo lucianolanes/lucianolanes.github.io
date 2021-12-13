@@ -36,10 +36,10 @@ const PROJECTS = [
   {
     id: 'nodeAPI',
     img: '/images/node.jpg',
-    repoLink:'https://github.com/lucianolanes/Node.JS-Endpoints',
-    title: 'Node.js API CRUD',
-    text1: 'Primeiro projeto que realizei utilizando Node.js e Express, onde foi desenvolvida uma API de CRUD (Create, Read, Update e Delete).',
-    text2: 'Foram criadas rotas e middlewares que irão ler e realizar alterações utilizando o módulo fs, tendo como base um arquivo JSON que simula um cadastro de palestrantes.'
+    repoLink:'https://github.com/lucianolanes/API-Digital-Republic-Challenge',
+    title: 'Node.js API Bank',
+    text1: 'API RESTful que simula o gerenciamento de contas bancárias, realizada para o Desafio de Back End proposto pela Digital Republic. A API possui sua organização bem definida com Models, Services, Controllers, Middlewares, tratamento de erros e exceções.',
+    text2: 'Stack utilizada: Node.js, Express.js, MySQL, JTW, Mocha e Chai para os testes. Todas as instruções para executar e preparar o ambiente estão no ReadMe do repositório.'
   },
   {
     id: 'nodeAPIRESTful',
