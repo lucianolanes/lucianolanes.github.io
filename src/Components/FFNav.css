@@ -49,7 +49,6 @@ aside {
 
 .nav-pointer {
   position: absolute;
-  right: 22%;
   visibility: hidden;
 }
 
@@ -112,6 +111,10 @@ nav li:hover > .nav-pointer {
   aside {
     font-size: 120%;
     margin-right: 3%;
+  }
+
+  .nav-pointer {
+    right: 22%;
   }
 }
 
