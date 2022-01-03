@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import PROJECTS from '../service/projects';
-import pointer from '../images/pointer.png';
 import './FFNav.css';
 
 export default function FFNav({setPage}) {
@@ -23,18 +22,15 @@ export default function FFNav({setPage}) {
       <aside>
         <nav className="side-menu">
           <p onClick={() => setPage('About')} className="link">
-            <img src={ pointer } alt="Apontando para Esquerda" className="nav-pointer" />
             Sobre Mim
           </p>
           <p onClick={() => setPage('Skills')} className="link">
-            <img src={ pointer } alt="Apontando para Esquerda" className="nav-pointer" />
             Skills
           </p>
           <p id="notLink">Projetos</p>
           <ul>
             { PROJECTS.map(({title, id}) => (
               <li className="link" key={id} onClick={ () => setPage(id)}>
-                <img src={ pointer } alt="Apontando para Esquerda" className="nav-pointer" />
                 { title }
               </li>))
             }

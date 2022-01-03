@@ -47,11 +47,6 @@ aside {
   text-shadow: -1px 0 black, 0 3px rgb(41, 40, 40), 3px 0 rgb(26, 25, 25), 0 -1px black;
 }
 
-.nav-pointer {
-  position: absolute;
-  visibility: hidden;
-}
-
 nav ul {
   padding: 0;
   margin: 0;
@@ -97,10 +92,6 @@ nav li:hover > .nav-pointer {
   aside {
     font-size: 130%;
   }
-  
-  .nav-pointer {
-    right: 27%;
-  }
 
   .side-menu {
     padding: 0 5px 30px 20px;
@@ -112,19 +103,11 @@ nav li:hover > .nav-pointer {
     font-size: 120%;
     margin-right: 3%;
   }
-
-  .nav-pointer {
-    right: 22%;
-  }
 }
 
 @media (min-width: 1440px) {
   aside {
     font-size: 130%;
-  }
-
-  .nav-pointer {
-    right: 22%;
   }
 }
 
@@ -132,24 +115,10 @@ nav li:hover > .nav-pointer {
   aside {
     font-size: 135%;
   }
-
-  .nav-pointer {
-    right: 21%;
-  }
 }
 
 @media (min-width: 1800px) {  
   aside {
     font-size: 180%;
-  }
-
-  .nav-pointer {
-    right: 22%;
-  }
-}
-
-@media (min-width: 2560px) {  
-  .nav-pointer {
-    right: 20%;
   }
 }
